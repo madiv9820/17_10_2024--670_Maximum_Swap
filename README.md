@@ -1,4 +1,4 @@
-# Maximum Swap
+## Greedy Approach
 
 - ### Intuition
     - The goal is to maximize the number by swapping two digits. The optimal strategy is to find the first digit that can be exchanged with a larger digit that appears later in the number. This ensures that the resulting number is as large as possible.
