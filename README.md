@@ -19,7 +19,7 @@
         - ___O(n)___: The algorithm requires additional space to store the list of digits, which is proportional to the number of digits in the input number.
 
     - ### Code
-        ```python
+        ```python3 []
         class Solution:
             def maximumSwap(self, num: int) -> int:
                 # Convert the integer to a string to access each digit
@@ -68,7 +68,7 @@
         - ___O(1)___: The space complexity is constant because the `last` array has a fixed size of 10, regardless of the number of digits in the input number.
 
     - ### Code
-        ```python
+        ```python3 []
         class Solution:
             def maximumSwap(self, num: int) -> int:
                 # Convert the number to a list of digits
